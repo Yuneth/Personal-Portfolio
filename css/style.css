@@ -5636,6 +5636,12 @@ button.bg-dark:focus {
   margin: 10px; /* Adds some space around the logo */
 }
 
+.netbeans-logo {
+  display: inline-block; /* Keeps the logo inline while allowing styling */
+  margin: 10px; /* Adds some space around the logo */
+}
+
+
 
 @media (min-width: 576px) {
   .d-sm-none {
@@ -9208,7 +9214,7 @@ textarea.form-control {
     font-weight: 400;
     color: #000000; }
 
-.ftco-footer-social li {
+/* .ftco-footer-social li {
   list-style: none;
   margin: 0 10px 0 0;
   display: inline-block; }
@@ -9229,7 +9235,45 @@ textarea.form-control {
       -ms-transform: translate(-50%, -50%);
       transform: translate(-50%, -50%); }
     .ftco-footer-social li a:hover {
-      color: #fff; }
+      color: #fff; } */
+
+    .ftco-footer-social {
+        display: flex; /* Aligns items in a row */
+        justify-content: center; /* Centers the icons */
+        gap: 10px; /* Space between icons */
+    }
+    
+    .ftco-footer-social li {
+        list-style: none; /* Removes bullet points */
+        margin: 0; /* Resets any additional margin */
+        display: inline-block; /* Ensures list items are inline */
+    }
+    
+    .ftco-footer-social li a {
+        height: 50px;
+        width: 50px;
+        display: block;
+        background: rgba(255, 255, 255, 0.1); /* Adds background to the icons */
+        border-radius: 50%; /* Makes the icons circular */
+        position: relative;
+        text-align: center; /* Centers text/icon inside */
+        line-height: 50px; /* Ensures vertical alignment */
+        transition: background-color 0.3s ease; /* Smooth background color change on hover */
+    }
+    
+    .ftco-footer-social li a span {
+        position: absolute;
+        font-size: 26px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%); /* Centers the icon inside the circle */
+    }
+    
+    .ftco-footer-social li a:hover {
+        background-color: #0077b5; /* Changes background color on hover (example for LinkedIn) */
+        color: #fff; /* Changes icon color on hover */
+    }
+    
 
 .footer-small-nav > li {
   display: inline-block; }
