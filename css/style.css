@@ -5545,6 +5545,98 @@ button.bg-dark:focus {
   display: -ms-inline-flexbox !important;
   display: inline-flex !important; }
 
+.justified-paragraph {
+  text-align: justify;
+}
+
+.java-logo {
+  display: inline-block; /* Adjusts how the logo is displayed */
+  margin: 10px; /* Adds some spacing around the logo */
+  /* Additional styling if needed */
+}
+
+.javascript-logo {
+  display: inline-block; /* Keeps the logo inline while allowing styling */
+  margin: 10px; /* Adds some space around the logo */
+}
+
+.html5-logo {
+  display: inline-block;
+  margin: 10px;
+  /* Additional styling if needed */
+}
+
+.jquery-logo {
+  display: inline-block; /* Keeps the logo inline while allowing styling */
+  margin: 10px; /* Adds some space around the logo */
+}
+
+.css3-logo {
+  display: inline-block; /* Keeps the logo inline while allowing styling */
+  margin: 10px; /* Adds some space around the logo */
+}
+
+.react-logo {
+  display: inline-block; /* Keeps the logo inline while allowing styling */
+  margin: 10px; /* Adds some space around the logo */
+}
+
+.springboot-logo {
+  display: inline-block; /* Keeps the logo inline while allowing styling */
+  margin: 10px; /* Adds some space around the logo */
+}
+
+.github-logo {
+  display: inline-block; /* Keeps the logo inline while allowing styling */
+  margin: 10px; /* Adds some space around the logo */
+}
+
+.hibernate-logo {
+  display: inline-block; /* Keeps the logo inline while allowing styling */
+  margin: 20px; /* Adds some space around the logo */
+}
+
+.sqlserver-logo {
+  display: inline-block; /* Keeps the logo inline while allowing styling */
+  margin: 10px; /* Adds some space around the logo */
+}
+
+.mysql-logo {
+  display: inline-block; /* Keeps the logo inline while allowing styling */
+  margin: 10px; /* Adds some space around the logo */
+}
+
+.csharp-logo {
+  display: inline-block; /* Keeps the logo inline while allowing styling */
+  margin: 10px; /* Adds some space around the logo */
+}
+
+.php-logo {
+  display: inline-block; /* Keeps the logo inline while allowing styling */
+  margin: 15px; /* Adds some space around the logo */
+}
+
+.python-logo {
+  display: inline-block; /* Keeps the logo inline while allowing styling */
+  margin: 15px; /* Adds some space around the logo */
+}
+
+.visualstudio-logo {
+  display: inline-block; /* Keeps the logo inline while allowing styling */
+  margin: 10px; /* Adds some space around the logo */
+}
+
+.vscode-logo {
+  display: inline-block; /* Keeps the logo inline while allowing styling */
+  margin: 10px; /* Adds some space around the logo */
+}
+
+.intellij-logo {
+  display: inline-block; /* Keeps the logo inline while allowing styling */
+  margin: 10px; /* Adds some space around the logo */
+}
+
+
 @media (min-width: 576px) {
   .d-sm-none {
     display: none !important; }
